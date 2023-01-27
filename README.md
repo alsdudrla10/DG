@@ -3,7 +3,7 @@
 **ArXiv will be updated soon** <br>
 **Code will be released soon** <br>
 
-![Teaser image](./figures/Figure1.PNG)
+![Teaser image](./figures/Figure1_v2.PNG)
 
 <br>
 
@@ -18,4 +18,4 @@
 
 
 
-![Teaser image](./figures/Figure2.PNG)
+![Teaser image](./figures/Figure2_v2.PNG)
