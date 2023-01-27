@@ -1,5 +1,5 @@
 ## Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models (DG) (under review) <br><sub>Official PyTorch implementation of the Discriminator Guidance </sub>
-| [paper](https://arxiv.org/abs/2211.17091) |
+| [paper](https://arxiv.org/abs/2211.17091) | <br>
 **ArXiv will be updated soon** <br>
 **Code will be released soon** <br>
 
