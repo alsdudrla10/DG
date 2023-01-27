@@ -4,7 +4,7 @@
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
 **ArXiv will be updated soon** <br>
-**Code will be released soon** <br> <br>
+**Code will be released soon** <br>
 
 ![Teaser image](./figures/Figure1_v2.PNG)
 
