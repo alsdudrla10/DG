@@ -3,7 +3,7 @@
 
 ![Teaser image](./figures/Figure1.PNG)
 
-**Code will be released soon
+**Code will be released soon<br>
 **ArXiv will be updated soon
 
 **Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models**<br>
