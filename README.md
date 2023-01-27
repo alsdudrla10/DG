@@ -2,3 +2,5 @@
 #### Code will be released soon
 
 ![Teaser image](./figures/Figure1.PNG)
+
+![Teaser image](./figures/Figure2.PNG)
