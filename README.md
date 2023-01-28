@@ -10,10 +10,10 @@
 ![Teaser image](./figures/Figure1_v2.PNG)
 
 ## Results
-|FID 50k |Cifar10(l)|Cifar10(u)|Cifar10(c)|FFHQ64(u)|CelebA64(u)|ImageNet256(c)|
+|FID-50k |Cifar-10|FFHQ64|CelebA64|ImageNet256|
 |------------|------------|------------|------------|------------|------------|------------|
-|Privious SOTA|2.10|2.03|1.82|2.39|1.90|4.01|
-|+ DG|1.94|1.77|1.64|1.98|1.34|3.24|
+|Privious SOTA|2.10|2.03|1.82|2.39|1.90|4.59|
+|+ DG|1.94|1.77|1.64|1.98|1.34|3.17|
 
 <sup>**(l)**: latent diffusion, **(u)**: unconditional diffusion, **(c)**: conditional diffusion </sup>
 
