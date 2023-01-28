@@ -9,10 +9,6 @@
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
-<br>
-
-
-
 ## Results
 |Datasets|Cifar10(l)|Cifar10(u)|Cifar10(c)|FFHQ64(u)|CelebA64(u)|ImageNet256(c)|
 |------------|------------|------------|------------|------------|------------|------------|
@@ -21,4 +17,5 @@
 
 <sup>**(l)**: latent diffusion, **(u)**: unconditional diffusion, **(c)**: conditional diffusion </sup>
 
+## Figures on Recall-best DG
 ![Teaser image](./figures/Figure2.PNG)
