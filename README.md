@@ -10,9 +10,10 @@
 
 <br>
 
-
-
-
-
-
 ![Teaser image](./figures/Figure2.PNG)
+
+|  Optimizer   | Cifar10  |      FFHQ64     |    CelebA64   |   ImageNet256   |
+| ------------ |-------------- | ------------- | ------------- | ------------- |
+|    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |
+|    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |
+
