@@ -15,4 +15,4 @@
 
 
 
-![Teaser image](./figures/Figure2_v2.PNG)
+![Teaser image](./figures/Figure2.PNG)
