@@ -19,6 +19,6 @@
 |Privious SOTA|2.10|2.03|1.82|2.39|1.90|4.01|
 |+ DG|1.94|1.77|1.64|1.98|1.34|3.24|
 
-<sup>(l):latent diffusion, (u): unconditional diffusion, (c): conditional diffusion </sup>
+<sup>**(l)**:latent diffusion, (u): unconditional diffusion, (c): conditional diffusion </sup>
 
 ![Teaser image](./figures/Figure2.PNG)
