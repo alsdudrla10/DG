@@ -6,14 +6,17 @@
 **ArXiv will be updated soon** <br>
 **Code will be released soon** <br>
 
+## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
 <br>
 
-![Teaser image](./figures/Figure2.PNG)
 
+
+## Results
 |  Datasets   | Cifar10  |      FFHQ64     |    CelebA64   |   ImageNet256   |
 | ------------ |-------------- | ------------- | ------------- | ------------- |
 |    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |
 |    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |
 
+![Teaser image](./figures/Figure2.PNG)
