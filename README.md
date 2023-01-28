@@ -16,7 +16,7 @@
 ## Results
 |Datasets|Cifar10(l)|Cifar10(u)|Cifar10(c)|FFHQ64(u)|CelebA64(u)|ImageNet256(c)|
 | ------------ |-------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |      xx     |      xx     |      xx     |
-|    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |     xx     |      xx     |      xx     |
+|    Privious SOTA      |     2.10     |     2.03     |     1.82     |     2.39     |      1.90     |      4.01     |
+|    + Discriminator Guidance       |     1.94     |     1.77     |     1.64     |     1.98     |     1.34     |      3.24     |
 
 ![Teaser image](./figures/Figure2.PNG)
