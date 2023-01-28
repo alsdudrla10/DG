@@ -17,5 +17,5 @@
 
 <sup>**(l)**: latent diffusion, **(u)**: unconditional diffusion, **(c)**: conditional diffusion </sup>
 
-## Figures on Recall-best DG
+## Figures on recall-best DG
 ![Teaser image](./figures/Figure2.PNG)
