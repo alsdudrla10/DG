@@ -16,7 +16,7 @@
 ## Results
 |  Datasets   | Cifar10  |      FFHQ64     |    CelebA64   |   ImageNet256   |
 | ------------ |-------------- | ------------- | ------------- | ------------- |
-|    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |
-|    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |
+|    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |      xx     |
+|    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |     xx     |
 
 ![Teaser image](./figures/Figure2.PNG)
