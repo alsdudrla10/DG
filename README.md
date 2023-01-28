@@ -14,9 +14,8 @@
 
 
 ## Results
-|Datasets|Cifar10|Cifar10|Cifar10|FFHQ64|CelebA64|ImageNet256|
+|Datasets|Cifar10(l)|Cifar10(u)|Cifar10(c)|FFHQ64(u)|CelebA64(u)|ImageNet256(c)|
 | ------------ |-------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|Setting|latent|uncond|cond|uncond|uncond|cond|
 |    Privious SOTA      |     xx     |     xx     |     xx     |     xx     |      xx     |      xx     |      xx     |
 |    + Discriminator Guidance       |     xx     |     xx     |     xx     |     xx     |     xx     |      xx     |      xx     |
 
