@@ -3,7 +3,7 @@
 <sup> * Equal contribution </sup> <br>
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
-**Code will be released soon** <br>
+**See XXX for the ImageNet256 datasets** <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
