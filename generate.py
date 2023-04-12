@@ -127,9 +127,10 @@ def main(time_min, time_max, dg_weight_1st_order, dg_weight_2nd_order, cond, pre
 
     ## Load discriminator
     discriminator = None
-    if dg_weight_1st_order != 0 and dg_weight_2nd_order != 0:
+    if dg_weight_1st_order != 0 or dg_weight_2nd_order != 0:
         discriminator = classifier_lib.get_discriminator(pretrained_classifier_ckpt, discriminator_ckpt,
                                                      net.label_dim and cond, net.img_resolution, device, enable_grad=True)
+    print(discriminator)
     vpsde = classifier_lib.vpsde()
 
     ## Loop over batches.

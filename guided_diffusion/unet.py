@@ -635,7 +635,7 @@ class EncoderUNetModel(nn.Module):
         else:
             h = h.type(x.dtype)
             if feature:
-                return self.out(h), h
+                return h
             if sigmoid:
                 return F.sigmoid(self.out(h))
             return self.out(h)

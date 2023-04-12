@@ -4,12 +4,12 @@ import os
 import numpy as np
 
 def get_discriminator(latent_extractor_ckpt, discriminator_ckpt, condition, img_resolution=32, device='cuda', enable_grad=True):
-    adm_latent_extractor = load_classifier(latent_extractor_ckpt, img_resolution, device, eval=True)
-    shallow_discriminator = load_discriminator(discriminator_ckpt, device, condition, eval=True)
+    classifier = load_classifier(latent_extractor_ckpt, img_resolution, device, eval=True)
+    discriminator = load_discriminator(discriminator_ckpt, device, condition, eval=True)
     def evaluate(perturbed_inputs, timesteps=None, condition=None):
         with torch.enable_grad() if enable_grad else torch.no_grad():
-            adm_features = adm_latent_extractor(perturbed_inputs, timesteps=timesteps, feature=True)
-            prediction = shallow_discriminator(adm_features, timesteps, sigmoid=True, condition=condition).view(-1)
+            adm_features = classifier(perturbed_inputs, timesteps=timesteps, feature=True)
+            prediction = discriminator(adm_features, timesteps, sigmoid=True, condition=condition).view(-1)
         return prediction
     return evaluate
 
