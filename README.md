@@ -3,7 +3,7 @@
 <sup> * Equal contribution </sup> <br>
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
-**See XXX for the ImageNet256 datasets** <br>
+**See [here](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 datasets** <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
