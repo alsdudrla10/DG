@@ -8,13 +8,13 @@
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
-## Results (Data diffusion)
+## Results on data diffusion
 |FID-50k |Cifar-10|FFHQ64|CelebA64|ImageNet256|
 |------------|------------|------------|------------|------------|
 |Privious SOTA|2.03|2.39|1.90|4.59|
 |+ DG|1.77|1.98|1.34|3.17|
 
-## Results (Latent diffusion)
+## Results on latent diffusion
 |FID-50k |Cifar-10|ImageNet256|
 |------------|------------|------------|
 |Privious SOTA|2.10|2.27|
