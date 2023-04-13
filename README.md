@@ -15,18 +15,18 @@
   - Download at [EDM](https://github.com/NVlabs/edm).
   
 
-```
-${XDG_CACHE}/autoencoders/data/ILSVRC2012_{split}/data/
-├── n01440764
-│   ├── n01440764_10026.JPEG
-│   ├── n01440764_10027.JPEG
-│   ├── ...
-├── n01443537
-│   ├── n01443537_10007.JPEG
-│   ├── n01443537_10014.JPEG
-│   ├── ...
-├── ...
-```
+  ```
+  ${XDG_CACHE}/autoencoders/data/ILSVRC2012_{split}/data/
+  ├── n01440764
+  │   ├── n01440764_10026.JPEG
+  │   ├── n01440764_10027.JPEG
+  │   ├── ...
+  ├── n01443537
+  │   ├── n01443537_10007.JPEG
+  │   ├── n01443537_10014.JPEG
+  │   ├── ...
+  ├── ...
+  ```
   - save_directory: DG/checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
 
 ### 2) Fake sample generation
