@@ -12,8 +12,8 @@
 ## Step-by-Step running of Discriminator Guidance
 
 ### 1) Prepare pre-trained score network
-  - Download edm-cifar10-32x32-uncond-vp.pkl at [EDM](https://github.com/NVlabs/edm).
-  - Set edm-cifar10-32x32-uncond-vp.pkl at this directory.  
+  - Download the file edm-cifar10-32x32-uncond-vp.pkl at [EDM](https://github.com/NVlabs/edm).
+  - Place the file edm-cifar10-32x32-uncond-vp.pkl at the directory specified.  
  
   ```
   ${project_page}/DG/
