@@ -57,6 +57,16 @@
 
 ### 5) Discriminator training
   - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
+  - Place **32x32_classifier.pt** at the directory specified.
+  ```
+  ${project_page}/DG/
+  ├── checkpoints
+  │   ├── pretrained_score
+  │   ├── discriminator/cifar_uncond/discriminator_60.pt
+  │   ├── ADM_classifier
+  ├── data
+  ├── ...
+  ```
   - To train the discriminator from scratch, run:
    ```
    python3 train.py
