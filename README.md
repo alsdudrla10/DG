@@ -106,4 +106,16 @@ See [https://github.com/alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/
 ![Teaser image](./figures/Figure4.PNG)
 
 
+## Reference
+If you find the code useful for your research, please consider citing
+  ```
+  @article{kim2022refining,
+  title={Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models},
+  author={Kim, Dongjun and Kim, Yeongmin and Kang, Wanmo and Moon, Il-Chul},
+  journal={arXiv preprint arXiv:2211.17091},
+  year={2022}
+}
+ ```
+
+
 
