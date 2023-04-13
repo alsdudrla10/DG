@@ -11,8 +11,8 @@
 
 ## Step-by-Step running of Discriminator Guidance
 
-### 1) Download pretrained score network
-  - Link: https://github.com/NVlabs/edm 
+### 1) Prepare pretrained score network
+  - Download at [EDM](https://github.com/NVlabs/edm).
   - save_directory: DG/checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
 
 ### 2) Fake sample generation
