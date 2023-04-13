@@ -12,8 +12,8 @@
 ## Step-by-Step running of Discriminator Guidance
 
 ### 1) Prepare pre-trained score network
-  - Download edm-cifar10-32x32-uncond-vp.pkl at [EDM](https://github.com/NVlabs/edm).
-  - Place edm-cifar10-32x32-uncond-vp.pkl at the directory specified.  
+  - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm).
+  - Place **edm-cifar10-32x32-uncond-vp.pkl** at the directory specified.  
  
   ```
   ${project_page}/DG/
@@ -32,7 +32,7 @@
 
 ### 3) Prepare real data
   - Download [DG/data/true_data.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT)
-  - Place true_data.npz at the directory specified.
+  - Place **true_data.npz** at the directory specified.
   ```
   ${project_page}/DG/
   ├── checkpoints
@@ -43,8 +43,8 @@
 
 ### 4) Prepare pre-trained classifier
   - Download [DG/checkpoints/ADM_classifier/32x32_classifier.pt](https://drive.google.com/drive/folders/1gb68C13-QOt8yA6ZnnS6G5pVIlPO7j_y)
-  - We train 32 resolution classifier from [here](https://github.com/openai/guided-diffusion)
-    - Place 32x32_classifier.pt at the directory specified.
+  - We train 32 resolution classifier from [ADM](https://github.com/openai/guided-diffusion)
+  - Place **32x32_classifier.pt** at the directory specified.
   ```
   ${project_page}/DG/
   ├── checkpoints
