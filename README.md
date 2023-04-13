@@ -59,22 +59,31 @@
 
 ### 5) Train a discriminator
   - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
-  - Place **discriminator_60.pt** at the directory specified below.
+  - Place **pre-trained discriminator** at the directory specified below.
   ```
   ${project_page}/DG/
-  ├── checkpoints
-  │   ├── discriminator/cifar_uncond/discriminator_60.pt
+  ├── checkpoints/discriminator
+  │   ├── cifar_uncond/discriminator_60.pt
+  │   ├── cifar_cond/discriminator_250.pt
   ├── ...
   ```
-  - To train the discriminator from scratch, run:
+  - To train the unconditional discriminator from scratch, run:
    ```
    python3 train.py
    ```
+   - To train the conditional discriminator from scratch, run:
+   ```
+   python3 train.py --savedir=/checkpoints/discriminator/cifar_cond --gendir=/samples/cifar_cond_vanilla --datadir=/data/true_data_label.npz --cond=1 
+   ```
 
 ### 6) Generate discriminator-guided samples
-  - To generate discriminator-guided 50k samples, run: 
+  - To generate unconditional discriminator-guided 50k samples, run: 
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond
+   ```
+  - To generate conditional discriminator-guided 50k samples, run: 
+  ```
+  python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-cond-vp.pkl --outdir=samples/cifar_cond --dg_weight_1st_order=1 --cond=1 --discriminator_ckpt=/checkpoints/discriminator/cifar_cond/discriminator_250.pt --boosting=1
    ```
   
 ### 7) Evaluate FID
@@ -89,6 +98,9 @@
   - Run: 
   ```
   python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_uncond/
+   ```
+  ```
+  python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_cond/
    ```
 
 ## Experimental Results
