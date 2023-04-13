@@ -51,7 +51,7 @@
 
 ### 5) Discriminator training
   - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
-  - Place **32x32_classifier.pt** at the directory specified.
+  - Place **discriminator_60.pt** at the directory specified.
   ```
   ${project_page}/DG/
   ├── checkpoints
@@ -71,6 +71,13 @@
   
 ### 7) FID evaluation
   - Download stat files at [DG/stats/cifar10-32x32.npz](https://drive.google.com/drive/folders/1xTdHz2fe71yvO2YpVfsY3sgH5Df7_b6y)
+  - Place **cifar10-32x32.npz** at the directory specified.
+  ```
+  ${project_page}/DG/
+  ├── stats
+  │   ├── cifar10-32x32.npz
+  ├── ...
+  ```
   - Run: 
   ```
   python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_uncond/
