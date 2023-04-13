@@ -93,7 +93,6 @@
 ### Other backbones
 |FID-50k  |Cifar-10|CelebA64|
 |------------|------------|------------|
-|Backbone model|LSGM|ST|
 |Backbone|2.10|1.90|
 |G++|1.94|1.34|
 
