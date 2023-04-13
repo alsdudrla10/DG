@@ -38,16 +38,16 @@
   - download stat files [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
 
 ## Results on data diffusion
-|FID-50k |Cifar-10|FFHQ64|CelebA64|ImageNet256|
-|------------|------------|------------|------------|------------|
+|FID-50k |Cifar-10|FFHQ64|CelebA64|
+|------------|------------|------------|------------|
 |Privious SOTA|2.03|2.39|1.90|4.59|
 |+ DG|1.77|1.98|1.34|3.17|
 
 ## Results on latent diffusion
-|FID-50k |Cifar-10|ImageNet256|
-|------------|------------|------------|
-|Privious SOTA|2.10|2.27|
-|+ DG|1.94|1.83|
+|FID-50k |Cifar-10|
+|------------|------------|
+|Privious SOTA|2.10|
+|+ DG|1.94|
 
 
 ## Samples from recall-best DG
