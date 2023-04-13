@@ -17,9 +17,9 @@
   
 
   ```
-  ${xxx}/DG/
+  ${project_page}/DG/
   ├── checkpoints
-  │   ├── **pretrained_score/edm-cifar10-32x32-uncond-vp.pkl**
+  │   ├── pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
   │   ├── discriminator
   │   ├── ADM_classifier
   ├── ...
