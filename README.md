@@ -101,7 +101,7 @@
 ![Teaser image](./figures/Figure3.PNG)
 
 ### Samples from Conditional Cifar-10
-![Teaser image](./figures/Figure3.PNG)
+![Teaser image](./figures/Figure4.PNG)
 
 
 
