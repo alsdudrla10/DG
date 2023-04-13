@@ -87,14 +87,15 @@
 ### EDM-G++
 |FID-50k |Cifar-10|Cifar-10(conditional)|FFHQ64|
 |------------|------------|------------|------------|
-|EDM|2.03|1.79|2.39|
+|EDM|2.03|1.82|2.39|
 |EDM-G++|1.77|1.64|1.98|
 
-### 
-|FID-50k |Cifar-10|
+### Other backbones
+|Backbones|LSGM|ST|
+|FID-50k  |Cifar-10|CelebA64|
 |------------|------------|
-|Backbone|2.10|
-|+ DG|1.94|
+|Backbone|2.10|1.90|
+|+ DG|1.94|1.34|
 
 
 ### Samples from Unconditional Cifar-10
