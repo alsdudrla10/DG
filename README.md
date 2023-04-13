@@ -97,10 +97,10 @@
 |G++|1.94|1.34|
 
 
-### Samples from Unconditional Cifar-10
+### Samples from unconditional Cifar-10
 ![Teaser image](./figures/Figure3.PNG)
 
-### Samples from Conditional Cifar-10
+### Samples from conditional Cifar-10
 ![Teaser image](./figures/Figure4.PNG)
 
 
