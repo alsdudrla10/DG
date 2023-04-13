@@ -95,6 +95,7 @@
 |------------|------------|------------|
 |Backbone|2.10|1.90|
 |Backbone-G++|1.94|1.34|
+
 Note that we use LSGM of Cifar-10 backbone, and Soft-Truncation for CelebA64 backbone.
 
 ### Samples from unconditional Cifar-10
