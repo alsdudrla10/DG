@@ -32,7 +32,14 @@
 
 ### 3) Prepare real data
   - Download [DG/data/true_data.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT)
-  - save_directory: DG/data/true_data.npz
+  - Place true_data.npz at the directory specified.
+  ```
+  ${project_page}/DG/
+  ├── checkpoints
+  ├── data
+  │   ├── true_data.npz
+  ├── ...
+  ```
 
 ### 4) Prepare pre-trained classifier
   - download [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
