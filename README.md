@@ -71,7 +71,7 @@
   
 ### 7) Evaluate FID
   - Download stat files at [DG/stats/cifar10-32x32.npz](https://drive.google.com/drive/folders/1xTdHz2fe71yvO2YpVfsY3sgH5Df7_b6y)
-  - Place **cifar10-32x32.npz** at the directory specified.
+  - Place **cifar10-32x32.npz** at the directory specified below.
   ```
   ${project_page}/DG/
   ├── stats
