@@ -19,8 +19,6 @@
   ${project_page}/DG/
   ├── checkpoints
   │   ├── pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
-  │   ├── discriminator
-  │   ├── ADM_classifier
   ├── ...
   ```
 
@@ -35,7 +33,6 @@
   - Place **true_data.npz** at the directory specified.
   ```
   ${project_page}/DG/
-  ├── checkpoints
   ├── data
   │   ├── true_data.npz
   ├── ...
@@ -48,10 +45,7 @@
   ```
   ${project_page}/DG/
   ├── checkpoints
-  │   ├── pretrained_score
-  │   ├── discriminator
   │   ├── ADM_classifier/32x32_classifier.pt
-  ├── data
   ├── ...
   ```
 
@@ -61,10 +55,7 @@
   ```
   ${project_page}/DG/
   ├── checkpoints
-  │   ├── pretrained_score
   │   ├── discriminator/cifar_uncond/discriminator_60.pt
-  │   ├── ADM_classifier
-  ├── data
   ├── ...
   ```
   - To train the discriminator from scratch, run:
