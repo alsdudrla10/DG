@@ -11,7 +11,7 @@
 
 ## Step-by-Step running of Discriminator Guidance
 
-### 1) Prepare pretrained score network
+### 1) Prepare pre-trained score network
   - Download at [EDM](https://github.com/NVlabs/edm).
   - save_directory: DG/checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
 
@@ -22,7 +22,7 @@
   - download [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
   - save_directory: DG/data/true_data.npz
 
-### 4) Prepare pretrained classifier
+### 4) Prepare pre-trained classifier
   - download [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
   - save_directory: DG/checkpoints/ADM_classifier/32x32_classifier.pt
   - We train 32 resolution classifier from [here](https://github.com/openai/guided-diffusion)
