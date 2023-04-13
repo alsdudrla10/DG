@@ -30,7 +30,7 @@
 
 ### 3) Prepare real data
   - Download [DG/data/true_data.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT)
-  - Place **true_data.npz** at the directory specified.
+  - Place **true_data.npz** at the directory specified below.
   ```
   ${project_page}/DG/
   ├── data
@@ -41,7 +41,7 @@
 ### 4) Prepare a pre-trained classifier
   - Download [DG/checkpoints/ADM_classifier/32x32_classifier.pt](https://drive.google.com/drive/folders/1gb68C13-QOt8yA6ZnnS6G5pVIlPO7j_y)
   - We train 32 resolution classifier from [ADM](https://github.com/openai/guided-diffusion).
-  - Place **32x32_classifier.pt** at the directory specified.
+  - Place **32x32_classifier.pt** at the directory specified below.
   ```
   ${project_page}/DG/
   ├── checkpoints
@@ -51,7 +51,7 @@
 
 ### 5) Train a discriminator
   - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
-  - Place **discriminator_60.pt** at the directory specified.
+  - Place **discriminator_60.pt** at the directory specified below.
   ```
   ${project_page}/DG/
   ├── checkpoints
