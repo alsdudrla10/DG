@@ -16,14 +16,14 @@
   - Save
   
 
-  ```
+
   ${project_page}/DG/
   ├── checkpoints
   │   ├── pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
   │   ├── discriminator
   │   ├── ADM_classifier
   ├── ...
-  ```
+
   - save_directory: DG/checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
 
 ### 2) Fake sample generation
