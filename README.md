@@ -36,7 +36,7 @@
 
 ### 3) Prepare real data
   - Download [DG/data/true_data.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT) for unconditional model.
-  - Download [DG/data/true_data_label.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT) for unconditional model.
+  - Download [DG/data/true_data_label.npz](https://drive.google.com/drive/folders/18qh5QGP2gLgVjr0dh2g8dfBYZoGC0uVT) for conditional model.
   - Place **real data** at the directory specified below.
   ```
   ${project_page}/DG/
