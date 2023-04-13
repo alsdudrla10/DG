@@ -4,16 +4,16 @@
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
 **Camera-ready final version will be released within this month. Stay tuned!** <br>
-**See [https://github.com/alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 code release.** <br>
+**See [alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 code release.** <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
 ## Step-by-Step Running of Discriminator Guidance
 
-### 1) Prepare pre-trained score network
+### 1) Prepare a pre-trained score network
   - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm).
-  - Place **edm-cifar10-32x32-uncond-vp.pkl** at the directory specified.  
+  - Place **EDM checkpoint** at the directory specified below.  
  
   ```
   ${project_page}/DG/
@@ -22,8 +22,8 @@
   ├── ...
   ```
 
-### 2) Fake sample generation
-  - Run: 
+### 2) Generate fake samples
+  - To draw 50k samples, run: 
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond_vanilla --dg_weight_1st_order=0
    ```
@@ -38,7 +38,7 @@
   ├── ...
   ```
 
-### 4) Prepare pre-trained classifier
+### 4) Prepare a pre-trained classifier
   - Download [DG/checkpoints/ADM_classifier/32x32_classifier.pt](https://drive.google.com/drive/folders/1gb68C13-QOt8yA6ZnnS6G5pVIlPO7j_y)
   - We train 32 resolution classifier from [ADM](https://github.com/openai/guided-diffusion).
   - Place **32x32_classifier.pt** at the directory specified.
@@ -49,7 +49,7 @@
   ├── ...
   ```
 
-### 5) Discriminator training
+### 5) Train a discriminator
   - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
   - Place **discriminator_60.pt** at the directory specified.
   ```
@@ -63,13 +63,13 @@
    python3 train.py
    ```
 
-### 6) Generation with Discriminator Guidance
-  - Run: 
+### 6) Generate discriminator-guided samples
+  - To generate discriminator-guided 50k samples, run: 
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond
    ```
   
-### 7) FID evaluation
+### 7) Evaluate FID
   - Download stat files at [DG/stats/cifar10-32x32.npz](https://drive.google.com/drive/folders/1xTdHz2fe71yvO2YpVfsY3sgH5Df7_b6y)
   - Place **cifar10-32x32.npz** at the directory specified.
   ```
@@ -97,7 +97,7 @@
 |Backbone-G++|1.94|1.34|
 
 Note that we use [LSGM](https://github.com/NVlabs/LSGM) for Cifar-10 backbone, and [Soft-Truncation](https://github.com/Kim-Dongjun/Soft-Truncation) for CelebA64 backbone. <br>
-See [https://github.com/alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for the results and released code on ImageNet256.
+See [alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for the results and released code on ImageNet256.
 
 ### Samples from unconditional Cifar-10
 ![Teaser image](./figures/Figure3.PNG)
