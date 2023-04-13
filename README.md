@@ -3,6 +3,7 @@
 <sup> * Equal contribution </sup> <br>
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
+**Camera-ready final version will be released within this month. Stay tuned!** <br>
 **See [here](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 datasets** <br>
 
 ## Overview
