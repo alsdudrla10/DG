@@ -12,20 +12,26 @@
 ## Step-by-Step Running of Discriminator Guidance
 
 ### 1) Prepare a pre-trained score network
-  - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm).
+  - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm) for unconditional model.
+  - Download **edm-cifar10-32x32-cond-vp.pkl** at [EDM](https://github.com/NVlabs/edm) for conditional model.
   - Place **EDM checkpoint** at the directory specified below.  
  
   ```
   ${project_page}/DG/
   ├── checkpoints
   │   ├── pretrained_score/edm-cifar10-32x32-uncond-vp.pkl
+  │   ├── pretrained_score/edm-cifar10-32x32-cond-vp.pkl
   ├── ...
   ```
 
 ### 2) Generate fake samples
-  - To draw 50k samples, run: 
+  - To draw 50k unconditional samples, run: 
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond_vanilla --dg_weight_1st_order=0
+   ```
+  - To draw 50k conditional samples, run: 
+  ```
+  python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-cond-vp.pkl --outdir=samples/cifar_cond_vanilla --dg_weight_1st_order=0
    ```
 
 ### 3) Prepare real data
