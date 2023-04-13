@@ -95,7 +95,7 @@
 |------------|------------|------------|
 |Backbone model|LSGM|ST|
 |Backbone|2.10|1.90|
-|+G++|1.94|1.34|
+|G++|1.94|1.34|
 
 
 ### Samples from Unconditional Cifar-10
