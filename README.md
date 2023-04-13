@@ -50,8 +50,8 @@
 |+ DG|1.94|
 
 
-## Samples from recall-best DG
-![Teaser image](./figures/Figure2.PNG)
+## Samples from Cifar-10
+![Teaser image](./figures/Figure3.PNG)
 
 
 
