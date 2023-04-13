@@ -91,7 +91,7 @@
 |EDM-G++|1.77|1.64|1.98|
 
 ### Other backbones
-|FID-50k  |LSGM|CelebA64|
+|FID-50k  |Cifar-10|CelebA64|
 |------------|------------|------------|
 |Backbone|2.10|1.90|
 |Backbone-G++|1.94|1.34|
