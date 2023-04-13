@@ -4,7 +4,7 @@
 
 | [paper](https://arxiv.org/abs/2211.17091) |  <br>
 **Camera-ready final version will be released within this month. Stay tuned!** <br>
-**See [here](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 datasets** <br>
+**See [https://github.com/alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for the ImageNet256 datasets** <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
