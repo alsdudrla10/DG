@@ -31,7 +31,7 @@
    ```
 
 ### 3) Prepare real data
-  - Download [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
+  - Download [DG/DATA/true_data.npz](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
   - save_directory: DG/data/true_data.npz
 
 ### 4) Prepare pre-trained classifier
