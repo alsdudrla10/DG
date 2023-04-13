@@ -43,7 +43,7 @@
 
 ### 4) Prepare pre-trained classifier
   - Download [DG/checkpoints/ADM_classifier/32x32_classifier.pt](https://drive.google.com/drive/folders/1gb68C13-QOt8yA6ZnnS6G5pVIlPO7j_y)
-  - We train 32 resolution classifier from [ADM](https://github.com/openai/guided-diffusion)
+  - We train 32 resolution classifier from [ADM](https://github.com/openai/guided-diffusion).
   - Place **32x32_classifier.pt** at the directory specified.
   ```
   ${project_page}/DG/
@@ -63,11 +63,18 @@
    ```
 
 ### 6) Generation with Discriminator Guidance
-  - command: python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond
+  - Run: 
+  ```
+  python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond
+   ```
   
 ### 7) FID evaluation
-  - command: python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_uncond/
-  - download stat files [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
+  - Download stat files at [DG/stats/cifar10-32x32.npz](https://drive.google.com/drive/folders/1xTdHz2fe71yvO2YpVfsY3sgH5Df7_b6y)
+  - Run: 
+  ```
+  python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_uncond/
+   ```
+
 
 ## Results on data diffusion
 |FID-50k |Cifar-10|FFHQ64|CelebA64|
