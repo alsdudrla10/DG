@@ -58,7 +58,9 @@
   ```
 
 ### 5) Train a discriminator
-  - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
+  - Download pre-trained unconditional checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
+  - Download pre-trained unconditional checkpoint [DG/checkpoints/discriminator/cifar_cond/discriminator_250.pt](https://drive.google.com/drive/folders/1P1u7cz7kY1BJDPVrPNiFcksy_HCHY_bI) for the test.
+  
   - Place **pre-trained discriminator** at the directory specified below.
   ```
   ${project_page}/DG/
