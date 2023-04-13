@@ -9,7 +9,7 @@
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
-## Step-by-Step running of Discriminator Guidance
+## Step-by-Step Running of Discriminator Guidance
 
 ### 1) Prepare pre-trained score network
   - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm).
@@ -83,21 +83,24 @@
   python3 fid_npzs.py --ref=/stats/cifar10-32x32.npz --num_samples=50000 --images=/samples/cifar_uncond/
    ```
 
-
-## Results on data diffusion
-|FID-50k |Cifar-10|FFHQ64|CelebA64|
+## Experimental Results
+### EDM-G++
+|FID-50k |Cifar-10|Cifar-10(conditional)|FFHQ64|
 |------------|------------|------------|------------|
-|Privious SOTA|2.03|2.39|1.90|4.59|
-|+ DG|1.77|1.98|1.34|3.17|
+|EDM|2.03|1.79|2.39|
+|EDM-G++|1.77|1.64|1.98|
 
-## Results on latent diffusion
+### 
 |FID-50k |Cifar-10|
 |------------|------------|
-|Privious SOTA|2.10|
+|Backbone|2.10|
 |+ DG|1.94|
 
 
-## Samples from Cifar-10
+### Samples from Unconditional Cifar-10
+![Teaser image](./figures/Figure3.PNG)
+
+### Samples from Conditional Cifar-10
 ![Teaser image](./figures/Figure3.PNG)
 
 
