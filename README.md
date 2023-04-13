@@ -56,8 +56,11 @@
   ```
 
 ### 5) Discriminator training
-  - command: python3 train.py
-  - downalod checkpoint [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
+  - Download pre-trained checkpoint [DG/checkpoints/discriminator/cifar_uncond/discriminator_60.pt](https://drive.google.com/drive/folders/1Mf3F1yGfWT8bO0_iOBX-PWG3O-OLROE2) for the test.
+  - To train the discriminator from scratch, run:
+   ```
+   python3 train.py
+   ```
 
 ### 6) Generation with Discriminator Guidance
   - command: python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond
