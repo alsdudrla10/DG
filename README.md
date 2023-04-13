@@ -91,11 +91,11 @@
 |EDM-G++|1.77|1.64|1.98|
 
 ### Other backbones
-|FID-50k  |Cifar-10|CelebA64|
+|FID-50k  |we use backbone of Cifar-10 LSGM.|CelebA64|
 |------------|------------|------------|
 |Backbone|2.10|1.90|
-|G++|1.94|1.34|
-
+|Backbone-G++|1.94|1.34|
+Note that we use LSGM of Cifar-10 backbone, and Soft-Truncation for CelebA64 backbone.
 
 ### Samples from unconditional Cifar-10
 ![Teaser image](./figures/Figure3.PNG)
