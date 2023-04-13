@@ -91,11 +91,12 @@
 |EDM-G++|1.77|1.64|1.98|
 
 ### Other backbones
-|Backbones|LSGM|ST|
+
 |------------|------------|------------|
 |FID-50k  |Cifar-10|CelebA64|
+|Backbone model|LSGM|ST|
 |Backbone|2.10|1.90|
-|+ DG|1.94|1.34|
+|+G++|1.94|1.34|
 
 
 ### Samples from Unconditional Cifar-10
