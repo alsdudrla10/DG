@@ -42,9 +42,18 @@
   ```
 
 ### 4) Prepare pre-trained classifier
-  - Download [here](https://drive.google.com/drive/folders/1lOwHMS1GRuIfJ9ix9A6vtOm7vX8EN87Y)
-  - save_directory: DG/checkpoints/ADM_classifier/32x32_classifier.pt
+  - Download [DG/checkpoints/ADM_classifier/32x32_classifier.pt](https://drive.google.com/drive/folders/1gb68C13-QOt8yA6ZnnS6G5pVIlPO7j_y)
   - We train 32 resolution classifier from [here](https://github.com/openai/guided-diffusion)
+    - Place 32x32_classifier.pt at the directory specified.
+  ```
+  ${project_page}/DG/
+  ├── checkpoints
+  │   ├── pretrained_score
+  │   ├── discriminator
+  │   ├── ADM_classifier/32x32_classifier.pt
+  ├── data
+  ├── ...
+  ```
 
 ### 5) Discriminator training
   - command: python3 train.py
