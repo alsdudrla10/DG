@@ -1,4 +1,4 @@
-## Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models (DG) <br><sub>Official PyTorch implementation of the Discriminator Guidance </sub>
+## Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models (DG) (ICML2023 Oral) <br><sub>Official PyTorch implementation of the Discriminator Guidance </sub>
 **[Dongjun Kim](https://sites.google.com/view/dongjun-kim) \*, [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88) \*, Se Jung Kwon, Wanmo Kang, and Il-Chul Moon**   
 <sup> * Equal contribution </sup> <br>
 
